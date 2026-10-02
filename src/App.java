@@ -82,6 +82,13 @@ public class App {
         }
 
         int count =0;
+           for (int i=0; i<7; i++)
+        {
+            if (kayttajan_syotto[i]!= oikeat_numerot[i])
+                {count=count+1;
+                }
+
+        }
         
        
     }
