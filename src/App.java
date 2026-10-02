@@ -89,7 +89,12 @@ public class App {
                 }
 
         }
+
         System.out.println("\n\n " + count + " numeroa oli väärin.");
+
+          double prosenttia = (count / 7.0) * 100;
+
+       System.out.printf("\n%.1f%% oli väärin%n", prosenttia);
 
        
     }
