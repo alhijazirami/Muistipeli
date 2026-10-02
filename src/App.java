@@ -89,7 +89,8 @@ public class App {
                 }
 
         }
-        
+        System.out.println("\n\n " + count + " numeroa oli väärin.");
+
        
     }
 }
